@@ -1,0 +1,5 @@
+/home/varlam/Mono/source/Labs/Second/Second/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/varlam/Mono/source/Labs/Second/Second/bin/Debug/Second.exe.mdb
+/home/varlam/Mono/source/Labs/Second/Second/bin/Debug/Second.exe
+/home/varlam/Mono/source/Labs/Second/Second/obj/x86/Debug/Second.exe
+/home/varlam/Mono/source/Labs/Second/Second/obj/x86/Debug/Second.exe.mdb

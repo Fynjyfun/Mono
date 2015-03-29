@@ -1,8 +1,8 @@
-﻿<Properties StartupItem="First/First.csproj">
+﻿<Properties StartupItem="Animals/Animals.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="First/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Animals/Animals.cs">
     <Files>
-      <File FileName="First/Program.cs" Line="6" Column="6" />
+      <File FileName="Animals/Animals.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

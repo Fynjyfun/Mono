@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{6966D0FE-139D-4CB0-B528-BBDDA75746EF}</ProjectGuid>
+    <ProjectGuid>{B3F95FF8-A102-4FBF-8CE0-18134A59DF8B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>First</RootNamespace>
-    <AssemblyName>First</AssemblyName>
+    <RootNamespace>Second</RootNamespace>
+    <AssemblyName>Second</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
