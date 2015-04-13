@@ -1,8 +1,8 @@
 ﻿<Properties StartupItem="Forth/Forth.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Forth/Program.cs">
     <Files>
-      <File FileName="Forth/Program.cs" Line="9" Column="9" />
+      <File FileName="Forth/Program.cs" Line="23" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

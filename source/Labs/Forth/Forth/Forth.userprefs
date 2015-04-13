@@ -1,8 +1,8 @@
-﻿<Properties StartupItem="Third/Third.csproj">
+﻿<Properties StartupItem="Forth.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Third/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Third/Program.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="23" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -23,10 +23,9 @@ namespace Forth
 			int i, j;		//Счетчики итераций циклов
 			bool[] Flag;	//Массив флагов, чтобы не рассматривать уже учтенные виды символов
 			string Input;	//Строка для пользовательского ввода
-			int Count;		//Счетчик количества символов одного вида
 			int[] CountTypes;	//Массив для записи кол-ва символов всех видов
 
-			//Ввод строки с клавиатуры и ее эхо-печать
+	    	//Ввод строки с клавиатуры и ее эхо-печать
 			Console.Write ("Введите произвольную строку: ");
 			Input = Console.ReadLine();
 			Console.WriteLine ("Вы ввели строку: " + Input);
@@ -36,78 +35,33 @@ namespace Forth
 			if (Input.Length == 0) 
 			{
 				Console.WriteLine ("ОШИБКА! Введена пустая строка. Программа завершает свою работу.");
-				Console.ReadKey (); //(?)
 				return;
 			}
 
 			//Выделяем память для массива флагов
 			Flag = new bool[Input.Length]; //По дефолту все элементы FALSE (проверено)
+			//Выделяем память для массива, в который записываем количество символов каждого вида
+			CountTypes = new int[Input.Length];
 
-			//Цикл для определения количества видов символов (определение размера массива для записи кол-ва символов всех видов)
-			i = 0;
-			while (i < Input.Length)
+			for (i = 0; i < Input.Length; i++)
 			{
-				j = 0;
-				while (j < Input.Length)
+				for (j = 0; j < Input.Length; j++)
 				{
-					if (Flag[j] == false && Input[i] == Input[j])
+					if ((Input [i] == Input [j]) && (Flag [j] == false)) 
 					{
+						CountTypes [i]++;
 						Flag [j] = true;
 					}
-
-					j++;
 				}
-
-				i++;
 			}
-
-			//Выделение памяти для массива кол-ва вимволов всех видов
-			//CountTypes = new int[Count];
-
-
-			//Цикл для подсчета количества символов всех видов в исходной строке (заполнение массива)
-			/*
-
-			i = 0;
-			while (i < Input.Length)
+		
+			for (i = 0; i < Input.Length; i++) 
 			{
-
-				Count = 0;
-				j = 0;
-				while (j < Input.Length)
+				if (CountTypes [i] != 0) 
 				{
-					if (Flag[j] == false && Input[i] == Input[j])
-					{
-						Count++;
-						Flag [j] = true;
-					}
-
-					j++;
+					Console.WriteLine ("Символ " + Input [i] + " встречается " + CountTypes [i] + " раз");
 				}
-
-
-				j = 0;
-				while (j < Input.Length)
-				{
-					if (Flag[j] == false)
-					{
-
-					}
-
-					j++;
-				}
-
-				i++;
 			}
-
-			*/
-
-			//Вывод результата подсчета
-			/*
-			Console.WriteLine ("Количество символов " + Input[i](?) +" = " + CountTypes[i]);
-
-			Console.WriteLine ();
-			*/
 
 		}
 	}
