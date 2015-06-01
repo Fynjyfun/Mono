@@ -4,4 +4,4 @@ If you want more info about this project - watch [wiki](https://github.com/Fynjy
     <tr>
         <td>Foo</td>
     </tr>
-</table>Just apps made on Mono 
+</table>**Just apps made on Mono** 
